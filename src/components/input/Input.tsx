@@ -2,7 +2,7 @@ import { inputProps } from "@/types";
 
 const Input = ({ name, type, placeholder, value }: inputProps) => {
   return (
-    <div>
+    <div className="flex items-center justify-center">
       <input
         name={name}
         type={type}

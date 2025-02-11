@@ -3,6 +3,7 @@ import Todo from "@/components/todos/Todo";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import { GlowingEffect } from "@/components/ui/glowing-effect";
 import { prisma } from "@/utils/prisma";
+import { Spotlight } from "@/components/ui/Spotlight";
 
 async function getData() {
   const data = await prisma.todo.findMany({
@@ -23,12 +24,16 @@ export default async function Home() {
   const data = await getData();
   return (
     <div className="w-screen py-20 flex justify-center flex-col items-center">
+      <Spotlight
+        className="-top-40 left-0 md:left-60 md:-top-20"
+        fill="white"
+      />
       <div className="text-4xl font-extrabold uppercase my-4">
         <TextGenerateEffect
           className="text-4xl font-extrabold uppercase"
           duration={2}
           filter={false}
-          words={"A Simple Todo App built in Next.js with Server Actions"}
+          words={"A Simple Todo App built in Next.js with Server Actions and Aceternity UI."}
         />
       </div>
       
