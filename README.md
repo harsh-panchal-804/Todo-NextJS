@@ -6,8 +6,6 @@ This is a simple Todo application built with Next.js and TypeScript. It uses Tai
 
 - Add, edit, and delete todos
 - Mark todos as completed
-- Filter todos by status (all, active, completed)
-- Responsive design
 
 ## Technologies Used
 
@@ -28,7 +26,7 @@ This is a simple Todo application built with Next.js and TypeScript. It uses Tai
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/todo-next-sactions.git
+   git clone https://github.com/harsh-panchal-804/Todo-NextJS
    cd todo-next-sactions
    ```
 
