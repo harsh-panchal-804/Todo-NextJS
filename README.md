@@ -13,6 +13,7 @@ This is a simple Todo application built with Next.js and TypeScript. It uses Tai
 - TypeScript
 - Tailwind CSS
 - MongoDB
+- Prisma
 
 ## Getting Started
 
