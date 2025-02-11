@@ -1,26 +1,46 @@
-# Todo App
+# Todo App 🚀
 
-This is a simple Todo application built with Next.js and TypeScript. It uses Tailwind CSS for styling and MongoDB for data storage.
+A feature-rich Todo application built using **Next.js** and **TypeScript**. The app follows **modern development practices**, is **fully responsive**, and leverages **MongoDB** as the database with **Prisma ORM** for database operations. The UI is styled using **Tailwind CSS**.
 
-## Features
+## 🌟 Features
 
-- Add, edit, and delete todos
-- Mark todos as completed
+✅ Add, edit, and delete todos  
+✅ Mark todos as completed  
+✅ Server Actions for seamless data updates  
+✅ Optimized performance with Next.js  
+✅ MongoDB database integration with Prisma  
 
-## Technologies Used
+## 🎬 Demo
 
-- Next.js
-- TypeScript
-- Tailwind CSS
-- MongoDB
-- Prisma
+![Todo App Demo](https://your-gif-url-here.com/demo.gif)
 
-## Getting Started
+## 🛠️ Technologies Used
 
-### Prerequisites
+| Technology  | Purpose |
+|-------------|---------|
+| **Next.js** | React framework for fast and scalable web apps |
+| **TypeScript** | Type-safe JavaScript for better code maintainability |
+| **Tailwind CSS** | Utility-first CSS for modern styling |
+| **MongoDB** | NoSQL database for storing todos |
+| **Prisma** | ORM for MongoDB database operations |
+| **Framer Motion** | Smooth animations for UI elements |
 
-- Node.js (v14 or higher)
-- MongoDB
+## 🚀 Getting Started
+
+### 🔹 Prerequisites
+
+Ensure you have the following installed:
+
+- **Node.js** (v14 or higher) → [Download](https://nodejs.org/)
+- **MongoDB** (self-hosted or [MongoDB Atlas](https://www.mongodb.com/cloud/atlas))
+
+### 🔹 Installation
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/harsh-panchal-804/Todo-NextJS
+   cd todo-next-sactions
 
 ### Installation
 
@@ -51,13 +71,44 @@ This is a simple Todo application built with Next.js and TypeScript. It uses Tai
 
    Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-### Building for Production
+## Project Folder Structure
 
-To create an optimized production build:
-
-```bash
-npm run build
-npm start
+```plaintext
+todo-next-sactions/
+├── .env
+├── .eslintrc.json
+├── .gitignore
+├── .next/
+├── lib/
+│   └── utils.ts
+├── next-env.d.ts
+├── next.config.mjs
+├── package.json
+├── postcss.config.mjs
+├── prisma/
+│   └── schema.prisma
+├── public/
+│   ├── next.svg
+│   └── vercel.svg
+├── README.md
+├── src/
+│   ├── actions/
+│   ├── app/
+│   ├── components/
+│   │   ├── button/
+│   │   ├── form/
+│   │   │   └── Form.tsx
+│   │   ├── input/
+│   │   │   └── Input.tsx
+│   │   ├── todos/
+│   │   │   └── DeleteTodo.tsx
+│   │   └── ui/
+│   │       ├── Spotlight.tsx
+│   │       └── text-generate-effect.tsx
+│   ├── types/
+│   └── utils/
+├── tailwind.config.ts
+└── tsconfig.json
 ```
 
 ### Linting
